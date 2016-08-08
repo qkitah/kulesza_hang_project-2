@@ -34,9 +34,8 @@ clear:left;
 	height:auto;
 	position:relative;
 	top: 50px;
-	display:inline-block;
+	display: inline-block;
 	align-items: center;
-
 }
 
 .firstpage{
@@ -144,3 +143,22 @@ span{
     top: 5%;
     z-index: 2;
 }
+
+h3, h4, h5 {
+	font-size: 2em;
+	color: white;
+	
+}
+.one, .two, .three {
+	width: 200px;
+	height: auto;
+	position: relative;
+	left:60px;
+	display: inline-block
+	
+}
+footer {
+	color: white;
+text-align: left}
+#why img {left: 0}
+
