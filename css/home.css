@@ -30,12 +30,13 @@ clear:left;
 }
 
 .arrow 	{
-	margin-left: 40%;	
 	width: 20%;
 	height:auto;
 	position:relative;
 	top: 50px;
-	
+	display:inline-block;
+	align-items: center;
+
 }
 
 .firstpage{
@@ -93,8 +94,53 @@ height: 100vh;
 
 }
 
+h6{
+
+	font-size: 2em;
+	color:white;
+
+}
 
 #gallery{
 height: 100vh;
+padding:0;
 
+}
+figure {
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	display: inline-block;
+	padding:0;
+	margin:20px;
+	}
+
+/*.chloe{
+	background-image:url("(img/veg1.png");	
+	width: 100px;
+	height: 100px;
+
+}*/
+
+#gallery figure img {
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width:100%;
+	height:100%;
+
+}
+
+#gallery figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+span{
+	  position: relative;
+    top: 5%;
+    z-index: 2;
 }
