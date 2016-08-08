@@ -1,0 +1,42 @@
+html {
+	background-color: #FFF5EE
+}
+body {
+	margin: 10px 200px;
+	text-align: center;
+	background-color:grey;
+	padding: 20px;
+	font-family: 'Lusitana', serif;
+	min-width: 800px;
+}
+#box1 {letter-spacing: 6px;
+font-family: 'Raleway', sans-serif;
+background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t34.0-12/13988788_10154199189195751_305511724_n.png?oh=dedfbef0a3d33430df0cd3ed541a4b01&oe=57AACE71');
+background-repeat: none;
+background-image: cover;
+width: auto;
+height: auto;
+align: center;
+margin:0 -200px 0 300px;
+padding: 0;
+}
+
+
+h1 {font-size: 5em;
+	padding-top: 180px ;
+	margin-bottom: 0 ; 
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px
+}
+ h2{
+ 	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	font-weight: lighter;
+	text-align: right;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 5px;
+	font-size: 2em;
+}
