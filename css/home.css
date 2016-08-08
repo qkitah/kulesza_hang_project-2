@@ -1,13 +1,59 @@
 html {
 	background-color: #FFF5EE
 }
+
+/*.socialmedia{
+margin-top:100px;	
+position: fixed;
+display: inline;
+
+}
+.socialmedia img{
+width: 30%;
+height:auto;
+clear:left;
+
+}*/
+.socialmedia{
+	left: 0;
+	position: fixed;
+	top: 10px;
+}
+.socialmedia a{display: block;
+position: relative;
+left: 0}
+img{
+width: 35%;
+height:auto;
+clear:left;
+
+}
+
+.arrow 	{
+	margin-left: 40%;	
+	width: 20%;
+	height:auto;
+	position:relative;
+	top: 50px;
+	
+}
+
+.firstpage{
+height: 100vh;
+
+}
+
 body {
 	margin: 10px 200px;
 	text-align: center;
-	background-color:grey;
+	background-color:#8A9CAD;
 	padding: 20px;
 	font-family: 'Lusitana', serif;
-	min-width: 800px;
+	min-width: 65%;
+	/*max-width: 250px;*/
+
+
+
 }
 #box1 {letter-spacing: 6px;
 font-family: 'Raleway', sans-serif;
@@ -17,8 +63,9 @@ background-image: cover;
 width: auto;
 height: auto;
 align: center;
-margin:0 -200px 0 300px;
-padding: 0;
+margin:80px -180px 0px 250px;
+padding: 0px;
+max-width: 775px;
 }
 
 
@@ -39,4 +86,15 @@ h1 {font-size: 5em;
 	padding-bottom: 20px;
 	margin-left: 5px;
 	font-size: 2em;
+}
+
+#why{
+height: 100vh;
+
+}
+
+
+#gallery{
+height: 100vh;
+
 }
